@@ -1,0 +1,15 @@
+.menu-container{
+    display: flex;
+}
+
+.menu-item{
+    margin-left: 75px;
+    font-size: 1.1em;
+    font-family: JetBrainsMono;
+    color: var(--text-color-inactive);
+    cursor: pointer;
+
+    &:hover {
+        color:var(--text-color-active);
+    }
+}
