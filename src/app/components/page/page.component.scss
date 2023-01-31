@@ -1,22 +1,27 @@
-.page-container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;  
-    background-image: url('/assets/images/background.svg');
-    background-size: 100%;
+.page-container {     
+    // background-image: url('/assets/images/background.svg');
+    // background-size: cover;
+    width: 1365px;
+    margin: 0 auto;
+}
+
+.layout {
+    background-image: url('./../../../assets/images/background.svg');
+    min-height: 100vh;
+}
+
+
+.navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
 }
 
 app-horizontal-menu {
-    margin: 75px 220px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
-
-app-social-networks {
-    margin: 70px 210px 0px 0px;
-}
-
 
 

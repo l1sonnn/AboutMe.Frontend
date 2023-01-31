@@ -1,28 +1,15 @@
 .social-networks-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
-.social-networks-facebook {
-    margin-right: 25px;
-    width: 33px;
-    height: 33px;
+svg {
     cursor: pointer;
 }
 
-path:hover {
-    fill: white;
-}
-
-.social-networks-instagram {
-    margin-right: 25px;
-    width: 33px;
-    height: 33px;
-    cursor: pointer;
-}
-
-.social-networks-linkedin {
-    margin-right: 25px;
-    width: 33px;
-    height: 33px;
-    cursor: pointer;
+svg:hover path{
+    fill: var(--text-color-active);
+    transition: var(--delay);
 }

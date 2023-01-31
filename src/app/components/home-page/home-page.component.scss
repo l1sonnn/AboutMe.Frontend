@@ -1,0 +1,46 @@
+.content-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 75vh;
+    justify-content: center;
+}
+
+.photo{
+    width: 240px;
+    margin-bottom: 35px;
+}
+
+.text{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
+    width: 650px;
+}
+
+.greeting {
+    color: var(--text-color-active);
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.position {
+    font-weight: 300;
+    color: var(--accent-color);
+    font-size: 20px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+    color: var(--text-color-active);
+    font-size: 56px;
+    line-height: 130%;
+}
+
+span {
+    color: var(--accent-color);
+}
