@@ -4,6 +4,10 @@
             <app-horizontal-menu></app-horizontal-menu>
             <app-social-networks></app-social-networks>
         </div>
-    <div>
-        <ng-content></ng-content>    
+        <div>
+            <main [@routerTransition]="getState(outlet)">
+                <router-outlet #outlet="outlet"></router-outlet>
+            </main>
+        </div>
+    </div>
 </div>

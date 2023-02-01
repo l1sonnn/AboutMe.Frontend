@@ -1,7 +1,17 @@
 <div class="menu-container">
-    <div class="menu-item">Home</div>
-    <div class="menu-item">About</div>
-    <div class="menu-item">Resume</div>
-    <div class="menu-item">Blog</div>
-    <div class="menu-item">Contacts</div>
+    <div class="menu-item" >
+        <a routerLink="/" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+    </div>
+    <div class="menu-item">
+        <a routerLink="/about-page" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
+    </div>
+    <div class="menu-item">
+        <a routerLink="/cv-page" routerLinkActive="active" ariaCurrentWhenActive="page">Resume</a>
+    </div>
+    <div class="menu-item">
+        <a routerLink="/blog-page" routerLinkActive="active" ariaCurrentWhenActive="page">Blog</a>
+    </div>
+    <div class="menu-item">
+        <a routerLink="/contact-page" routerLinkActive="active" ariaCurrentWhenActive="page">Contacts</a>
+    </div>
 </div>

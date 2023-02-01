@@ -1,0 +1,47 @@
+
+.history {
+    max-width: var(--container-width);
+    min-height: var(--container-height);
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+
+    & span {
+    color: var(--accent-color);
+    }
+
+    &__title {
+        font-size: var(--header-size);
+    }
+    
+    &__story {
+        font-size: var(--text-size);
+        & ul {
+            list-style: none;
+        }
+        & li {
+            line-height: 135%;
+            list-style-type: none;
+            margin: 85px 0;
+        }
+    
+        & li::before {
+            content: "●";
+            color: var(--accent-color);
+            display: inline-block;
+            margin-right: 40px;
+        }
+    
+    }
+}
+
+.skills {
+    color: var(--text-color);
+    & h2 {
+        font-size: var(--header-size);
+    }
+    & span {
+        color: var(--accent-color);
+    }
+}
+
